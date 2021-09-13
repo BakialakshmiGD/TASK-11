@@ -1,0 +1,593 @@
+
+HTML Task to know usage of basic tags.
+
+
+1.Fix the bugs in below snippet
+
+  <html lang="en">
+    <head>
+        <title>Document</title>
+    </head>
+    <body>
+      guvi
+    <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        <div>
+            <div>
+                Guvi Geek Network
+            </div>
+        </body>
+    </html>
+
+
+2. Try the below one
+
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Document</title>
+    </head>
+    <body>
+      guvi
+    <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        <div>
+            <div>
+                Guvi Geek Network
+            </div>
+        </body>
+    </html>
+
+
+3.Design a contact us form with all fields as required.
+
+
+<html lang="en">
+<head>
+ <title>contact us</title>
+  
+
+  <style>
+form{
+    width:100%;
+    text-align:center; 
+    font-weight: bold;
+    font-size:20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+input , select {
+    height: 30px;
+    margin-top:10px;
+    border: none;
+    border-radius: 6px;  
+    font-family: Georgia, 'Times New Roman', Times, serif;  
+}
+
+#main{
+    background-color: rgb(114, 174, 223);
+    width: 50%;
+    border-style:double;
+    border-radius: 10px;
+    padding: 15px; 
+}
+
+#Message{
+    border: none;
+    border-radius: 6px;
+    margin-top:10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#submit{
+    background-color:red;
+    color: white;
+    padding: 8px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor:pointer;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#submit:hover{
+    background-color:green; 
+}
+
+  </style>
+</head>
+<body>
+
+<div id="main"> 
+
+<form action="https://www.guvi.in/" method="POST">
+<fieldset>
+  
+   <h1 id=contact >Contact us</h1>
+  <label for="name">Name</label><br>
+  <input type="text" id="name" name= "name" placeholder=" Your Name" pattern="[A-Z]{10}"><br><br>
+
+  <label for="email">Email</label><br>
+  <input type="text" id="email" name= "email" placeholder=" Your Email"><br><br>
+  
+ <label for="Country">Country</label><br>
+  <select type="options" id="country" name="country">
+    <option value="Select">Select Your Country</option>
+    <option value="India">India</option>
+    <option value="USA">USA</option>
+    <option value="Japan">Japan</option>
+    <option value="China">China</option>
+    <option value="South Korea">South Korea</option>
+
+</select>
+    </select><br><br>  
+
+  <label for="Message">Message</label><br>
+  
+<textarea name="Message" id="Message" cols="35" rows="8" placeholder=" Write Your Message Here"></textarea><br>
+
+<button id="submit">Submit</button>
+
+</fieldset>
+
+
+
+</form>
+</div>
+</body>
+</html>
+
+
+
+4. Use certain HTML elements to display the following in a HTML page.
+
+
+</head>
+<body>
+
+<ul>
+    <li>Programming Language</li>
+         <ul style='list-style:circle;'>
+            <li>JavaScript</li>
+        
+                    <ol id='lists' type='a'> 
+                        <li>Angular</li>
+                        <li>React</li>
+                        <li>Vue.js</li></ol>
+            <li>Python</li>
+                    <ol id='lists' type='a'> 
+                        <li>Django Framework</li>
+                        <li>Flask Framework</li></ol>
+            <li>Java</li>
+                    <ol id='lists' type='a'> 
+                        <li>Spring</li>
+                        <li>Maven</li>
+                        <li>Hibernate</li></ol></ul>
+    <li>Database</li>
+         <ul style='list-style:circle;'>
+            <li>MySQL</li>
+            <li>MongoDB</li>
+            <li>Cansandra</li></ul>
+</ul>
+
+</body>
+</html>
+
+
+5. Create an element that helps you to open the https://google.com in separate new tab.
+
+
+
+
+<a href="https://google.com" target="_blank">Google</a>
+
+
+
+6. In the form, add two radio buttons with grouping them for employee type(Salaried and own business)
+
+
+ <form action=https://www.google.com/>
+    <p>Employee type:</p>
+    <input type="radio" id="Salaried" name="type" value="Salaried">
+    <label for="Salaried">salaried</label><br>
+    <input type="radio" id="ownbusiness" name="type" value="ownbusiness">
+    <label for="ownbusiness">own business</label><br>
+    <br><br>   
+    <input type="submit" value="Submit">
+    </form>
+
+
+7. Design form shown in the link (http://evc-cit.info/cit040/formguide/card_0.png)
+
+
+
+<style>
+
+#container{
+    background-color:rgb(247, 241, 241);
+    width: 39%;
+    border-style:none;
+    padding: 15px;
+    
+}
+
+#header{
+    border-style:solid;
+    border-width: 7px;
+    border-color: black;
+    height:400px;
+    
+}
+
+h1
+{
+    text-align:center;
+    background-color:red;
+    color: white;
+    font-size:29px;
+}
+span {
+    display: inline-block;
+    border-bottom: 3px solid black;
+    line-height: 15px;
+    text-align:center;      
+          
+} 
+.fname{
+    text-align:center; 
+    font-size:25px;
+}
+.lname
+{
+   text-align:center;
+   font-size:25px;  
+   
+}
+.name1{
+  
+   font-size:20px; 
+ 
+  
+}
+.name2{
+  
+   font-size:20px; 
+  
+   margin-left: 210px;
+}
+.address{
+    font-size:20px; 
+ 
+}
+.city{
+    font-size:20px; 
+}
+.state{
+    font-size:20px; 
+    margin-left:150px;
+}
+.zip{
+    font-size:20px; 
+    margin-left:120px;
+
+}
+
+</style>
+
+</head>
+<body>
+
+     <div id="container">   
+         
+<fieldset id="header">
+
+    <h1>Yes! I want to subscribe to 𝓜𝓪𝓰-𝓞-𝓩𝓲𝓷𝓮</h1>
+   
+    <span class="fname"  style="width: 250px" for="fname">𝒿𝑜𝑒</span> &ensp;&ensp;&ensp;
+    <span class="lname" style="width: 250px" for="lname">𝒮𝒸𝒽𝓂𝑒𝑔𝑒𝑔𝑔𝒾𝑒</span><br>
+    <label class="name1" for="fname">First Name</label>
+    <label class="name2" for="lname">Last Name</label><br>
+    <span class="fname" style="width: 500px" for="address">𝟣𝟢𝟢𝟣 𝒲𝒶𝓈𝒽𝒾𝓃𝑔𝓉𝑜𝓃 𝒮𝓉𝓇𝑒𝑒𝓉</span><br>
+    <label class="address" for="address">Address</label><br>
+    
+
+    <span class="fname" style="width: 175px" for="city">𝒩𝑒𝓌 𝒴𝑜𝓇𝓀</span>
+    <span class="fname" style="width: 160px" for="state">𝒞𝒜</span>
+    <span class="fname" style="width: 180px" for="zip">99999</span>
+    <label class="city" for="fname">City</label>
+    <label class="state" for="lname">State</label>
+    <label class="zip" for="lname">Zip</label>
+    
+    <h3>Subscribe for:</h3>
+    <input type="checkbox" id="checkbox-inline" name="value" value="inline">1 year($19.95)
+    <input type="checkbox" id="checkbox-inline" name="value" value="inline">2 year($35.00)
+
+    <h3>Send me more information about:</h3>
+    <input type="checkbox" id="Computer-Zine" name="Computer-Zine" value="Computer-Zine">Computer-Zine<br>
+    <input type="checkbox" id="Fishing-Zine" name="Fishing-Zine" value="Fishing-Zine">Fishing-Zine<br>
+    <input type="checkbox" id="Cat-O-Zine" name="Cat-O-Zine" value="Cat-O-Zine">Cat-O-Zine<br>
+
+</fieldset>
+</div>
+
+
+</body>
+ 
+</html>
+
+8. Use the table tag to design given image Click here.
+
+
+
+<html lang="en">
+<head>
+   
+    <title>Table</title>
+    
+</head>
+<body>
+<style>
+    #table,tr,td{
+    border: 1px solid;
+    border-collapse:collapse;
+    text-align:center;
+    line-height:50px;
+    font-size:20px;
+    
+}
+
+p{
+    text-align: center;
+    font-size:20px;
+}
+
+</style>
+ 
+<div>
+   <p>Health Chart</p>
+    <table id=table  width=50%; align="center" >
+<tr>
+    <td rowspan="2">State of Health</td>
+    <td colspan="2">Fasting value</td>
+    <td>After Eating</td>
+
+</tr>
+<tr>
+    <td>Minimum</td>
+    <td>Maximum</td>
+    <td>2 hours after eating</td>
+</tr>
+
+<tr>
+<td>Healthy</td>
+<td>70</td>
+<td>100</td>
+<td>Less than 140</td>
+</tr>
+
+<tr>
+<td>Pre-Diabetes</td>
+<td>101</td>
+<td>126</td>
+<td>140 to 200</td>
+</tr>
+
+<tr>
+<td>Diabetes</td>
+<td>More than 126</td>
+<td>N/A</td>
+<td>More than 200</td>
+</tr>
+
+
+</table>
+</div>
+
+</body>
+</html>
+
+
+
+9. Write HTML input tags snippet to show default values for all Form elements.
+
+
+  <fieldset>
+    <legend>𝕱𝖔𝖗𝖒𝖘</legend>
+    <form action="https://www.google.com/" method="GET">
+      
+        <label for="fname"> Name:</label><br>
+        <input type="text" id="name" name="name" value="Guvi"><br><br>
+
+   
+
+        <label for="cars">Choose a car:</label>
+        <select id="cars" name="cars">
+          <option value="volvo">Volvo</option>
+          <option value="saab">Saab</option>
+          <option value="fiat" selected>Fiat</option>
+          <option value="audi">Audi</option>
+        </select><br><br>
+
+
+       <textarea name="message" rows="10" cols="30">Write your content...</textarea><br><br>
+     
+
+      <label>
+        Choose your preferred available date (required, April 1st to 30th):
+        <input type="date" name="available" min="2020-04-01" max="2020-04-30" required>
+        <span class="validity"></span>
+      </label>
+<br>
+    
+<input list="browsers" name="city" value="Safari">
+<datalist id="browsers">
+  <option value="Internet Explorer">
+  <option value="Firefox">
+  <option value="Chrome">
+  <option value="Opera">
+  <option value="Safari">
+</datalist>
+<br><br>
+<label for="cars">Choose a car:</label>
+  <select name="cars" id="cars">
+    <optgroup label="Swedish Cars">
+      <option value="volvo">Volvo</option>
+      <option value="saab">Saab</option>
+    </optgroup>
+    <optgroup label="German Cars">
+      <option value="mercedes">Mercedes</option>
+      <option value="audi">Audi</option>
+    </optgroup>
+  </select>
+
+  <br><br>
+
+  <input type="submit" value="Submit">
+
+  <input type="submit" id = "Guvi" value="Submit@Guvi">
+
+  <button type="button" onclick="alert('Have a good day')">Click Me!</button><br><br>
+
+
+</form>
+</fieldset>
+
+<fieldset>
+<legend>ᖇᗩTIᑎG</legend>
+<form oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+  0
+  <input type="range" id="a" name="a" value="50">
+  100 +
+  <input type="number" id="b" name="b" value="50">
+  =
+  <output name="x" for="a b"></output>
+  
+  
+</form>
+</fieldset>
+
+
+
+10. In your, HTML page add the below line and Highlight it without using any CSS.
+"HTML & CSS is awesome"
+
+
+ <mark>"HTML & CSS is awesome"</mark>
+
+
+
+11. Create an HTML page, which should contain all types of input elements.
+
+
+
+    <!-- <input type="button"> -->
+    Button: <input type="button" value="Click me" onclick="alert('Have a great day!')">
+
+    <br><br>
+
+     <!-- <input type="checkbox"> -->
+     Checkbox: <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">I have a bike 
+  
+    <br><br>
+
+    <!-- <input type="color"> -->
+    Color: <input type="color" id="favcolor" name="favcolor" value="#33FFFD"> 
+    
+    <br><br>
+
+    <!-- <input type="date"> -->
+    Date: <input type="date" id="Date" name="Date">
+
+    <br><br>
+
+     <!-- <input type="time"> -->
+    Time: <input type="time" id="time" name="time">
+
+   <br><br>
+
+    <!--  <input type="datetime-local">-->
+    Date & Time: <input type="datetime-local" id="Date & Time" name="Date & Time">
+
+    <br><br>
+
+    <!-- <input type="week"> -->
+    week: <input type="week" id="week" name="week">
+
+     <br><br>
+     <!-- <input type="month"> -->
+     Month & Year: <input type="month" id="Month & Year" name="Month & Year">
+
+    <br><br>
+
+     <!-- <input type="email"> -->
+     Email: <input type="email" id="email" name="email">
+ 
+     <br><br>
+ 
+     <!-- <input type="password"> -->
+     Password: <input type="password" id="pwd" name="pwd">
+ 
+    <br><br>
+ 
+    <!-- <input type="file"> -->
+    File: <input type="file" id="myfile" name="myfile">
+ 
+    <br><br>
+ 
+    <!-- <input type="hidden">-->
+    Hidden: <input id="prodId" name="prodId" type="hidden" value="xm234jq">
+ 
+    <br><br>
+ 
+    <!-- <input type="number"> -->
+    Number: <input type="number" id="quantity" name="quantity" min="1" max="50">
+ 
+   <br><br>
+    
+    <!-- <input type="image"> -->
+    Image: <input type="image" id="image" alt="Login"src="https://cdn.wallpapersafari.com/89/29/UwnThy.jpg" width="200px" height="150px">
+ 
+    <br><br>
+ 
+    <!-- <input type="radio"> -->
+    
+    Radio:<input type="radio" id="html" name="fav_language" value="HTML"> HTML
+ 
+     <br><br>
+ 
+    <!-- <input type="range"> -->
+    Range: <input type="range" id="points" name="points" min="0" max="10">
+ 
+    <br><br>
+ 
+    <!-- <input type="reset"> -->
+    Reset: <input type="reset" value="Reset">
+ 
+    <br><br>
+ 
+    <!-- <input type="search"> -->
+    Search: <input type="search" id="gsearch" name="gsearch">
+ 
+    <br><br>
+ 
+    <!-- <input type="submit"> -->
+    Submit: <input type="submit" value="Submit">
+ 
+    <br><br>
+ 
+    <!-- <input type="tel"> -->
+    Tel: <input type="tel" id="phone" name="phone" placeholder="123-4567-890" pattern="[0-9]{3}-[0-9]{4}-[0-9]{3}" required>
+ 
+    <br><br>
+   
+    <!-- <input type="text"> -->
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name">
+ 
+    <br><br>
+ 
+    <!-- <input type="url"> -->
+    url: <input type="url" name="homepage">
+ 
+    <br><br>
+ 
